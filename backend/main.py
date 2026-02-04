@@ -129,7 +129,9 @@ from googleapiclient.discovery import build
 
 load_dotenv()
 
-GOOGLE_DOC_ID = os.getenv("GOOGLE_DOC_ID")
+# GOOGLE_DOC_ID = os.getenv("GOOGLE_DOC_ID")
+GOOGLE_DOC_ID = "1vdU7gUgnCJduBsxXe3KtYXmr4w5q_mdNZD8CgfncOiY"
+
 
 if not GOOGLE_DOC_ID:
     raise RuntimeError("GOOGLE_DOC_ID not set in .env")
