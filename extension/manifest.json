@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Bangla Translator Inline",
+  "version": "1.0",
+  "description": "Automatically translate selected text to Bangla inline tooltip",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
